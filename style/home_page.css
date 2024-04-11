@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+}
+
+.background-image{
+
+    height: 725px;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+
+    height: 725px;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.black-colour{
+    background-color: black;
+    opacity: 0.44;
+    width: 100%;
+    height: 725px;
+    position: absolute;
+}
+
+.shopping_website{
+    color: white;
+    font-weight: 700;
+    position: relative;
+    font-family: poppins;
+    z-index: 1;
+    font-size: 50px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopping_website a{
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.shopping_website button {
+    height: 50px;
+    width: 150px;
+    
+    border-radius: 40px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.Customer-button{
+    background-image: linear-gradient(264deg,#DF8908 -5.09%,#B415FF 106.28%);
+    border: 1.5px solid transparent;
+}
+.Customer-button:hover{
+    background-image: linear-gradient(264deg,#DF8908 -5.09%,#B415FF 106.28%);
+    border: 1.5px solid white;
+}
+
+.seller-button{
+    background-color: #B415FF;
+    border: 1.5px solid transparent;
+}
+
+.seller-button:hover{
+    border: 1.5px solid white;
+}
